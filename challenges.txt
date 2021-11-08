@@ -5,3 +5,11 @@
 
 to run your js in the terminal: node filename.js
 
+
+Let’s create a class for cars with manufacturer, model and colour in the constructor and create 3 instances of it. 
+The car should have functions for accelerate, brake, turning and beeping!
+
+WEEK 4 PROJECT
+Cyber pet time! 
+User selects the kind of animal they’d like (dog, cat, rabbit) and you have to play with it, feed it, give it drinks etc.
+There should be consequences across the board – if you don’t play, it gets bored, if you do, it’s happy, but gets thirsty, that kind of thing.
