@@ -1,0 +1,7 @@
+- Make 3 variables; one storing a string, one a number and the other a bool
+- Make an array that stores 4 items; add something to the end of the array using a method
+- Create a loop to cycle through the array to print out all the values
+- Create a function that when called asks you to withdraw an amount. Balance should reduce as appropriate.
+
+to run your js in the terminal: node filename.js
+
