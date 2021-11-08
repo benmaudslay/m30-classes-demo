@@ -15,8 +15,17 @@ class Bunny {
     }
 }
 
-let sherlock = new Bunny("Sherlock", 3)
-let watson = new Bunny("Watson", 2)
+let bunnies = [
+    { name: "Sherlock", age: 3 },
+    { name: "Watson", age: 2 },
+    { name: "Enola", age: 1 },
+]
 
-console.log(sherlock)
-console.log(watson)
+let instances = []
+
+for (let i = 0; i < bunnies.length; i++) {
+    const item = bunnies[i];
+    instances.push(new Bunny(item.name, item.age))
+}
+
+console.log(instances)
